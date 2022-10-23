@@ -1,6 +1,6 @@
 import React,{useState,useContext} from 'react'
 import axios from 'axios';
-import {store} from './App';
+import {store} from '../App';
 import { Redirect } from 'react-router-dom';
 
 const Login = () => {

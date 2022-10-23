@@ -1,5 +1,5 @@
 import React,{useContext,useState,useEffect} from 'react'
-import {store} from './App';
+import {store} from '../App';
 import { Redirect } from 'react-router';
 import axios from 'axios';
 import Moment from "react-moment";

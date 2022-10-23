@@ -1,9 +1,9 @@
 import React,{useState,createContext} from 'react'
 import {BrowserRouter, Route,Switch } from 'react-router-dom';
-import Nav from './Nav';
-import Register from './Register';
-import Login from './Login';
-import Myprofile from './Myprofile';
+import Nav from './components/Nav';
+import Register from './components/Register';
+import Login from './components/Login';
+import Myprofile from './components/Myprofile';
 
 export const store = createContext();
 
